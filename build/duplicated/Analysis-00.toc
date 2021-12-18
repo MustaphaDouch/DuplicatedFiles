@@ -34,7 +34,6 @@
   ('importlib.metadata',
    'c:\\python38\\lib\\importlib\\metadata.py',
    'PYMODULE'),
-  ('importlib.abc', 'c:\\python38\\lib\\importlib\\abc.py', 'PYMODULE'),
   ('contextlib', 'c:\\python38\\lib\\contextlib.py', 'PYMODULE'),
   ('configparser', 'c:\\python38\\lib\\configparser.py', 'PYMODULE'),
   ('posixpath', 'c:\\python38\\lib\\posixpath.py', 'PYMODULE'),
@@ -357,6 +356,7 @@
   ('email.encoders', 'c:\\python38\\lib\\email\\encoders.py', 'PYMODULE'),
   ('email.errors', 'c:\\python38\\lib\\email\\errors.py', 'PYMODULE'),
   ('csv', 'c:\\python38\\lib\\csv.py', 'PYMODULE'),
+  ('importlib.abc', 'c:\\python38\\lib\\importlib\\abc.py', 'PYMODULE'),
   ('importlib._bootstrap',
    'c:\\python38\\lib\\importlib\\_bootstrap.py',
    'PYMODULE'),
@@ -369,90 +369,82 @@
    'PYMODULE'),
   ('dis', 'c:\\python38\\lib\\dis.py', 'PYMODULE'),
   ('opcode', 'c:\\python38\\lib\\opcode.py', 'PYMODULE'),
-  ('tracemalloc', 'c:\\python38\\lib\\tracemalloc.py', 'PYMODULE'),
-  ('_py_abc', 'c:\\python38\\lib\\_py_abc.py', 'PYMODULE'),
   ('stringprep', 'c:\\python38\\lib\\stringprep.py', 'PYMODULE'),
+  ('_py_abc', 'c:\\python38\\lib\\_py_abc.py', 'PYMODULE'),
+  ('tracemalloc', 'c:\\python38\\lib\\tracemalloc.py', 'PYMODULE'),
   ('os', 'c:\\python38\\lib\\os.py', 'PYMODULE')],
- [('api-ms-win-crt-stdio-l1-1-0.dll',
-   'C:\\Program Files\\Le Robert '
-   'Correcteur\\Libs\\api-ms-win-crt-stdio-l1-1-0.dll',
-   'BINARY'),
-  ('python38.dll', 'c:\\python38\\python38.dll', 'BINARY'),
+ [('python38.dll', 'c:\\python38\\python38.dll', 'BINARY'),
   ('api-ms-win-crt-heap-l1-1-0.dll',
    'C:\\Program Files\\Le Robert '
    'Correcteur\\Libs\\api-ms-win-crt-heap-l1-1-0.dll',
    'BINARY'),
+  ('api-ms-win-crt-stdio-l1-1-0.dll',
+   'C:\\Program Files\\Le Robert '
+   'Correcteur\\Libs\\api-ms-win-crt-stdio-l1-1-0.dll',
+   'BINARY'),
+  ('VCRUNTIME140.dll', 'c:\\python38\\VCRUNTIME140.dll', 'BINARY'),
   ('api-ms-win-crt-locale-l1-1-0.dll',
    'C:\\Program Files\\Le Robert '
    'Correcteur\\Libs\\api-ms-win-crt-locale-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-math-l1-1-0.dll',
-   'C:\\Program Files\\Le Robert '
-   'Correcteur\\Libs\\api-ms-win-crt-math-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-crt-runtime-l1-1-0.dll',
    'C:\\Program Files\\Le Robert '
    'Correcteur\\Libs\\api-ms-win-crt-runtime-l1-1-0.dll',
    'BINARY'),
-  ('VCRUNTIME140.dll', 'c:\\python38\\VCRUNTIME140.dll', 'BINARY'),
-  ('ucrtbase.dll',
-   'C:\\Program Files\\Le Robert Correcteur\\Libs\\ucrtbase.dll',
-   'BINARY'),
-  ('api-ms-win-crt-time-l1-1-0.dll',
+  ('api-ms-win-crt-math-l1-1-0.dll',
    'C:\\Program Files\\Le Robert '
-   'Correcteur\\Libs\\api-ms-win-crt-time-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-convert-l1-1-0.dll',
-   'C:\\Program Files\\Le Robert '
-   'Correcteur\\Libs\\api-ms-win-crt-convert-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-string-l1-1-0.dll',
-   'C:\\Program Files\\Le Robert '
-   'Correcteur\\Libs\\api-ms-win-crt-string-l1-1-0.dll',
+   'Correcteur\\Libs\\api-ms-win-crt-math-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-crt-environment-l1-1-0.dll',
    'C:\\Program Files\\Le Robert '
    'Correcteur\\Libs\\api-ms-win-crt-environment-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-crt-process-l1-1-0.dll',
-   'C:\\Program Files\\Le Robert '
-   'Correcteur\\Libs\\api-ms-win-crt-process-l1-1-0.dll',
-   'BINARY'),
   ('api-ms-win-crt-conio-l1-1-0.dll',
    'C:\\Program Files\\Le Robert '
    'Correcteur\\Libs\\api-ms-win-crt-conio-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-string-l1-1-0.dll',
+   'C:\\Program Files\\Le Robert '
+   'Correcteur\\Libs\\api-ms-win-crt-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-convert-l1-1-0.dll',
+   'C:\\Program Files\\Le Robert '
+   'Correcteur\\Libs\\api-ms-win-crt-convert-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-process-l1-1-0.dll',
+   'C:\\Program Files\\Le Robert '
+   'Correcteur\\Libs\\api-ms-win-crt-process-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-crt-filesystem-l1-1-0.dll',
    'C:\\Program Files\\Le Robert '
    'Correcteur\\Libs\\api-ms-win-crt-filesystem-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-interlocked-l1-1-0.dll',
+  ('api-ms-win-crt-time-l1-1-0.dll',
    'C:\\Program Files\\Le Robert '
-   'Correcteur\\Libs\\api-ms-win-core-interlocked-l1-1-0.dll',
+   'Correcteur\\Libs\\api-ms-win-crt-time-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-processthreads-l1-1-0.dll',
-   'C:\\Program Files\\Le Robert '
-   'Correcteur\\Libs\\api-ms-win-core-processthreads-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-datetime-l1-1-0.dll',
-   'C:\\Program Files\\Le Robert '
-   'Correcteur\\Libs\\api-ms-win-core-datetime-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-timezone-l1-1-0.dll',
-   'C:\\Program Files\\Le Robert '
-   'Correcteur\\Libs\\api-ms-win-core-timezone-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-libraryloader-l1-1-0.dll',
-   'C:\\Program Files\\Le Robert '
-   'Correcteur\\Libs\\api-ms-win-core-libraryloader-l1-1-0.dll',
+  ('ucrtbase.dll',
+   'C:\\Program Files\\Le Robert Correcteur\\Libs\\ucrtbase.dll',
    'BINARY'),
   ('api-ms-win-core-memory-l1-1-0.dll',
    'C:\\Program Files\\Le Robert '
    'Correcteur\\Libs\\api-ms-win-core-memory-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-file-l2-1-0.dll',
+  ('api-ms-win-core-libraryloader-l1-1-0.dll',
    'C:\\Program Files\\Le Robert '
-   'Correcteur\\Libs\\api-ms-win-core-file-l2-1-0.dll',
+   'Correcteur\\Libs\\api-ms-win-core-libraryloader-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-debug-l1-1-0.dll',
+   'C:\\Program Files\\Le Robert '
+   'Correcteur\\Libs\\api-ms-win-core-debug-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-handle-l1-1-0.dll',
+   'C:\\Program Files\\Le Robert '
+   'Correcteur\\Libs\\api-ms-win-core-handle-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-string-l1-1-0.dll',
+   'C:\\Program Files\\Le Robert '
+   'Correcteur\\Libs\\api-ms-win-core-string-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-errorhandling-l1-1-0.dll',
    'C:\\Program Files\\Le Robert '
@@ -462,69 +454,77 @@
    'C:\\Program Files\\Le Robert '
    'Correcteur\\Libs\\api-ms-win-core-heap-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-handle-l1-1-0.dll',
+  ('api-ms-win-core-synch-l1-1-0.dll',
    'C:\\Program Files\\Le Robert '
-   'Correcteur\\Libs\\api-ms-win-core-handle-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-file-l1-2-0.dll',
-   'C:\\Program Files\\Le Robert '
-   'Correcteur\\Libs\\api-ms-win-core-file-l1-2-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-util-l1-1-0.dll',
-   'C:\\Program Files\\Le Robert '
-   'Correcteur\\Libs\\api-ms-win-core-util-l1-1-0.dll',
+   'Correcteur\\Libs\\api-ms-win-core-synch-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-namedpipe-l1-1-0.dll',
    'C:\\Program Files\\Le Robert '
    'Correcteur\\Libs\\api-ms-win-core-namedpipe-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-console-l1-1-0.dll',
+  ('api-ms-win-core-processthreads-l1-1-1.dll',
    'C:\\Program Files\\Le Robert '
-   'Correcteur\\Libs\\api-ms-win-core-console-l1-1-0.dll',
+   'Correcteur\\Libs\\api-ms-win-core-processthreads-l1-1-1.dll',
    'BINARY'),
-  ('api-ms-win-core-profile-l1-1-0.dll',
+  ('api-ms-win-core-util-l1-1-0.dll',
    'C:\\Program Files\\Le Robert '
-   'Correcteur\\Libs\\api-ms-win-core-profile-l1-1-0.dll',
+   'Correcteur\\Libs\\api-ms-win-core-util-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-synch-l1-2-0.dll',
+  ('api-ms-win-core-interlocked-l1-1-0.dll',
    'C:\\Program Files\\Le Robert '
-   'Correcteur\\Libs\\api-ms-win-core-synch-l1-2-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-synch-l1-1-0.dll',
-   'C:\\Program Files\\Le Robert '
-   'Correcteur\\Libs\\api-ms-win-core-synch-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-string-l1-1-0.dll',
-   'C:\\Program Files\\Le Robert '
-   'Correcteur\\Libs\\api-ms-win-core-string-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-sysinfo-l1-1-0.dll',
-   'C:\\Program Files\\Le Robert '
-   'Correcteur\\Libs\\api-ms-win-core-sysinfo-l1-1-0.dll',
+   'Correcteur\\Libs\\api-ms-win-core-interlocked-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-localization-l1-2-0.dll',
    'C:\\Program Files\\Le Robert '
    'Correcteur\\Libs\\api-ms-win-core-localization-l1-2-0.dll',
    'BINARY'),
-  ('api-ms-win-core-processthreads-l1-1-1.dll',
-   'C:\\Program Files\\Le Robert '
-   'Correcteur\\Libs\\api-ms-win-core-processthreads-l1-1-1.dll',
-   'BINARY'),
   ('api-ms-win-core-file-l1-1-0.dll',
    'C:\\Program Files\\Le Robert '
    'Correcteur\\Libs\\api-ms-win-core-file-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-processenvironment-l1-1-0.dll',
+  ('api-ms-win-core-file-l2-1-0.dll',
    'C:\\Program Files\\Le Robert '
-   'Correcteur\\Libs\\api-ms-win-core-processenvironment-l1-1-0.dll',
+   'Correcteur\\Libs\\api-ms-win-core-file-l2-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-datetime-l1-1-0.dll',
+   'C:\\Program Files\\Le Robert '
+   'Correcteur\\Libs\\api-ms-win-core-datetime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-profile-l1-1-0.dll',
+   'C:\\Program Files\\Le Robert '
+   'Correcteur\\Libs\\api-ms-win-core-profile-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-console-l1-1-0.dll',
+   'C:\\Program Files\\Le Robert '
+   'Correcteur\\Libs\\api-ms-win-core-console-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-rtlsupport-l1-1-0.dll',
    'C:\\Program Files\\Le Robert '
    'Correcteur\\Libs\\api-ms-win-core-rtlsupport-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-debug-l1-1-0.dll',
+  ('api-ms-win-core-sysinfo-l1-1-0.dll',
    'C:\\Program Files\\Le Robert '
-   'Correcteur\\Libs\\api-ms-win-core-debug-l1-1-0.dll',
+   'Correcteur\\Libs\\api-ms-win-core-sysinfo-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-0.dll',
+   'C:\\Program Files\\Le Robert '
+   'Correcteur\\Libs\\api-ms-win-core-processthreads-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processenvironment-l1-1-0.dll',
+   'C:\\Program Files\\Le Robert '
+   'Correcteur\\Libs\\api-ms-win-core-processenvironment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-2-0.dll',
+   'C:\\Program Files\\Le Robert '
+   'Correcteur\\Libs\\api-ms-win-core-file-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-2-0.dll',
+   'C:\\Program Files\\Le Robert '
+   'Correcteur\\Libs\\api-ms-win-core-synch-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-timezone-l1-1-0.dll',
+   'C:\\Program Files\\Le Robert '
+   'Correcteur\\Libs\\api-ms-win-core-timezone-l1-1-0.dll',
    'BINARY'),
   ('_lzma', 'c:\\python38\\DLLs\\_lzma.pyd', 'EXTENSION'),
   ('_bz2', 'c:\\python38\\DLLs\\_bz2.pyd', 'EXTENSION'),
@@ -540,8 +540,8 @@
   ('pyexpat', 'c:\\python38\\DLLs\\pyexpat.pyd', 'EXTENSION'),
   ('_decimal', 'c:\\python38\\DLLs\\_decimal.pyd', 'EXTENSION'),
   ('_hashlib', 'c:\\python38\\DLLs\\_hashlib.pyd', 'EXTENSION'),
-  ('libssl-1_1.dll', 'c:\\python38\\DLLs\\libssl-1_1.dll', 'BINARY'),
   ('libcrypto-1_1.dll', 'c:\\python38\\DLLs\\libcrypto-1_1.dll', 'BINARY'),
+  ('libssl-1_1.dll', 'c:\\python38\\DLLs\\libssl-1_1.dll', 'BINARY'),
   ('libffi-7.dll', 'c:\\python38\\DLLs\\libffi-7.dll', 'BINARY'),
   ('api-ms-win-crt-utility-l1-1-0.dll',
    'C:\\Program Files\\Le Robert '

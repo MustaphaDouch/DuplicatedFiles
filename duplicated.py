@@ -30,13 +30,17 @@ def countCalc(dup):
 print('*'*20, 'WELCOME TO DUPLICATED APP', '*'*20)
 print('1    all duplicated files (by name)')
 print('2    duplicated files (name & size)')
-print('3    duplicated files sorted by size')
+print('3    duplicated files sorted by size (prefered)')
 
-
+choice = ''
+path = ''
 # path = 'C:\\Users\\D.Mustapha\\OneDrive\\Desktop\\new_edge'
 # path = 'C:\\Users\\D.Mustapha\\OneDrive\\Desktop\\filtest'
-path = input('Enter your folder path (C:\...) : ')
-choice = input('Enter your choice : ')
+
+while path == '':
+    path = input('Enter your folder path (C:\...) : ')
+while choice == '':
+    choice = input('Enter your choice : ')
 f = open(f'{os.getcwd()}\duplicated.txt', 'w', encoding='utf8')
 all_files = []
 duplicated = {}
@@ -50,7 +54,7 @@ for dirpath, dirs, files in os.walk(path):
             duplicated[filename].append([os.path.join(dirpath, filename), os.path.getsize(os.path.join(dirpath, filename))])
         else:
             duplicated[filename] = [[os.path.join(dirpath, filename), os.path.getsize(os.path.join(dirpath, filename))]]
-   
+
 
 f.write('-'*20)
 # f.write(f'\nNumber of duplicated files : {len(duplicated.keys())}\n')
@@ -107,9 +111,11 @@ for el in duplicated.keys():
 if choice == '3':
     z = sorted(dupSizes, key=lambda x: x[0])
     z.reverse()
-    # first = z[0][1]
-    last = z[0][1]
-    f.write(f'\n{z[0][1]} (size : {megaCalc(z[0][0])}):\n')
+    # first = z[0][1]D:\.Master\PFE\Rapport_finale    
+    # last = z[0][1]
+    # print(z)
+    last = ''
+    # f.write(f'\n{z[0][1]} (size : {megaCalc(z[0][0])}):\n')
     for i in z:
         first = i[1]
         if first != last :
@@ -123,3 +129,5 @@ f.close()
 
 os.system(os.getcwd()+'\\duplicated.txt')
 
+
+input('Press Enter to exit')
