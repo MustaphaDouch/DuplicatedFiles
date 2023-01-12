@@ -34,8 +34,7 @@ print('3    duplicated files sorted by size (prefered)')
 
 choice = ''
 path = ''
-# path = 'C:\\Users\\D.Mustapha\\OneDrive\\Desktop\\new_edge'
-# path = 'C:\\Users\\D.Mustapha\\OneDrive\\Desktop\\filtest'
+
 
 while path == '':
     path = input('Enter your folder path (C:\...) : ')
